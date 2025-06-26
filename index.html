@@ -19,8 +19,8 @@
   </section>
 
   <section id="trophy-cabinet">
-    <h2>🏆 Trophy Cabinet</h2>
-    <ul>
+    <h2>🏆 Trophy Cabinet <button onclick="toggleSection('trophy-list')">Hide</button></h2>
+    <ul id="trophy-list">
       <li>
         <strong>🎮 Elden Ring NightReign</strong> – Platinum Trophy (2025)
         <span class="note">Nightreign</span>
@@ -45,8 +45,8 @@
   </section>
 
   <section>
-    <h2>🎮 Now Playing</h2>
-    <ul>
+    <h2>🎮 Now Playing <button onclick="toggleSection('now-playing')">Hide</button></h2>
+    <ul id="now-playing">
       <li>Predecessor</li>
       <li>Hitman World of Assassination</li>
       <li>Old School Runescape</li>
@@ -56,8 +56,8 @@
   </section>
 
   <section>
-    <h2>📚 Books to Read</h2>
-    <ol>
+    <h2>📚 Books to Read <button onclick="toggleSection('book-list')">Hide</button></h2>
+    <ol id="book-list">
       <li>13 Things Mentally Strong People Do</li>
       <li>Rich Dad Poor Dad</li>
       <li>Think and Grow Rich</li>
@@ -74,44 +74,50 @@
   </section>
 
   <section>
-    <h2>🎬 Media Queue</h2>
-    <h3>Shows Watched</h3>
-    <ul>
-      <li>Cross</li>
-      <li>Reacher</li>
-      <li>The Night Agent</li>
-      <li>All American</li>
-      <li>Abbott Elementary</li>
-    </ul>
-    <h3>Movies To See</h3>
-    <ul>
-      <li>Thunderbolts</li>
-      <li>The Accountant 2</li>
-      <li>Karate Kid: Legends</li>
-      <li>The Fantastic 4: First Steps</li>
-      <li>Superman</li>
-    </ul>
+    <h2>🎬 Media Queue <button onclick="toggleSection('media-queue')">Hide</button></h2>
+    <div id="media-queue">
+      <h3>Shows Watched</h3>
+      <ul>
+        <li>Cross</li>
+        <li>Reacher</li>
+        <li>The Night Agent</li>
+        <li>All American</li>
+        <li>Abbott Elementary</li>
+      </ul>
+      <h3>Movies To See</h3>
+      <ul>
+        <li>Thunderbolts</li>
+        <li>The Accountant 2</li>
+        <li>Karate Kid: Legends</li>
+        <li>The Fantastic 4: First Steps</li>
+        <li>Superman</li>
+      </ul>
+    </div>
   </section>
 
   <section>
-    <h2>🏋️ Workout Split</h2>
-    <p>3-4 Day Split</p>
-    <ol>
-      <li>Upper Body</li>
-      <li>Lower Body</li>
-      <li>Abs/Cardio</li>
-      <li>Full Body</li>
-    </ol>
+    <h2>🏋️ Workout Split <button onclick="toggleSection('workout')">Hide</button></h2>
+    <div id="workout">
+      <p>3-4 Day Split</p>
+      <ol>
+        <li>Upper Body</li>
+        <li>Lower Body</li>
+        <li>Abs/Cardio</li>
+        <li>Full Body</li>
+      </ol>
+    </div>
   </section>
 
   <section>
-    <h2>💻 Coding Focus</h2>
-    <p>Resume Website</p>
+    <h2>💻 Coding Focus <button onclick="toggleSection('coding')">Hide</button></h2>
+    <div id="coding">
+      <p>Resume Website</p>
+    </div>
   </section>
 
   <section>
-    <h2>🚧 Projects</h2>
-    <ul>
+    <h2>🚧 Projects <button onclick="toggleSection('projects')">Hide</button></h2>
+    <ul id="projects">
       <li>Family Recipe Website/App</li>
       <li>Healthy Alternatives Website/App</li>
       <li>Gym Website/App</li>
@@ -119,14 +125,16 @@
   </section>
 
   <section>
-    <h2>🎮 Gaming Progress</h2>
-    <p>PSN Trophy Cabinet</p>
-    <p>Platinums | Silver | Gold | Bronze</p>
+    <h2>🎮 Gaming Progress <button onclick="toggleSection('gaming-progress')">Hide</button></h2>
+    <div id="gaming-progress">
+      <p>PSN Trophy Cabinet</p>
+      <p>Platinums | Silver | Gold | Bronze</p>
+    </div>
   </section>
 
   <section>
-    <h2>🧙‍♂️ OSRS Stats</h2>
-    <ul>
+    <h2>🧙‍♂️ OSRS Stats <button onclick="toggleSection('osrs')">Hide</button></h2>
+    <ul id="osrs">
       <li>Total Level</li>
       <li>Money Makers</li>
       <li>Inferno wave pb/completions</li>
@@ -134,8 +142,8 @@
   </section>
 
   <section>
-    <h2>📖 Media Log</h2>
-    <ul>
+    <h2>📖 Media Log <button onclick="toggleSection('media-log')">Hide</button></h2>
+    <ul id="media-log">
       <li>Books Reading</li>
       <li>Movies Watched</li>
       <li>Games Finished</li>
