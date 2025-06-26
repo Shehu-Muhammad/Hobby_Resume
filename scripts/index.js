@@ -1,7 +1,16 @@
-// Click on name
-// Alert user that name was clicked on
-
 function alertNameClicked() {
-    const name = document.getElementById("name")
-    name.addEventListener("click", alert("Name/Description was clicked on"))
+    alert("Welcome to Shehu Muhammad's Life Resume!");
+}
+
+function toggleSection(id) {
+    const el = document.getElementById(id);
+    const button = document.querySelector(`button[onclick="toggleSection('${id}')"]`);
+
+    if (el.style.display === "none" || el.style.display === undefined) {
+        el.style.display = "block";
+        button.textContent = "Hide";
+    } else {
+        el.style.display = "none";
+        button.textContent = "Show";
+    }
 }
