@@ -1,5 +1,6 @@
 function alertNameClicked() {
     alert("Welcome to Shehu Muhammad's Life Resume!");
+    window.open("https://github.com/Shehu-Muhammad")
 }
 
 function toggleSection(id) {
