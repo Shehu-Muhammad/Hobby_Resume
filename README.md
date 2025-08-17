@@ -11,6 +11,7 @@ Built with **HTML, CSS, and JavaScript** for a simple, interactive design.
 - [📂 Project Structure](#-project-structure)  
 - [⚡ Getting Started](#-getting-started)  
 - [🛠️ Customization](#️-customization)  
+- [🌐 Deployment](#-deployment)  
 - [✨ Future Ideas](#-future-ideas)  
 - [📜 License](#-license)  
 
@@ -44,13 +45,15 @@ Built with **HTML, CSS, and JavaScript** for a simple, interactive design.
 
 ## 📂 Project Structure
 
+```bash
 hoo-hobbies/
 │
-├── index.html # Main webpage
+├── index.html          # Main webpage
 ├── styles/
-│ └── main.css # Stylesheet
+│   └── main.css        # Stylesheet
 └── scripts/
-└── index.js # JavaScript interactivity
+    └── index.js        # JavaScript interactivity
+```
 
 ---
 
@@ -76,6 +79,17 @@ cd hoo-hobbies
 - Modify styles/main.css for custom colors and layout.
 
 - Add more interactive features in scripts/index.js.
+
+---
+
+## 🌐 Deployment
+You can make the site live for free using:
+
+- GitHub Pages
+
+- Netlify
+
+- Vercel
 
 ---
 
