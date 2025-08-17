@@ -11,7 +11,6 @@ Built with **HTML, CSS, and JavaScript** for a simple, interactive design.
 - [📂 Project Structure](#-project-structure)  
 - [⚡ Getting Started](#-getting-started)  
 - [🛠️ Customization](#️-customization)  
-- [🌐 Deployment](#-deployment)  
 - [✨ Future Ideas](#-future-ideas)  
 - [📜 License](#-license)  
 
